@@ -7,7 +7,7 @@ WINDOW_LENGTH = 14
 
 with open("input.txt", "r") as file:
     input = file.readline()
-    # there is better way for sure than do the first window in a "hardcoded" way 
+    # there is better way for sure
     floating_window = [*input[0:WINDOW_LENGTH]]
     print(floating_window)
     for index in range(0, len(input)):
